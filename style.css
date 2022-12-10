@@ -1,0 +1,160 @@
+/*
+    tirando estilos do Body da aplicação
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*
+    Estilo do Menu Superior das paginas
+*/
+.caixa img{
+    width: 80px;
+    border-radius: 5px;
+}
+header{
+    background: #BBBBBB;
+    padding: 20px 0; 
+}
+.caixa{
+    position: relative;
+    width:940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top:10px;
+    right: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;    
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #3f3d3dc9;
+    transition: 1000ms
+    
+}
+/*
+    imagens informativas da pagina principal
+*/
+.informaões{
+ width: 80%;
+}
+.imagens_informações{
+    width: 48%;
+    padding: 10px;
+    border-radius: 18px;
+    max-width: 606px;
+    max-height: 336px;
+}
+/*
+    informativos das empresas de coleta
+*/
+#corpo_informativos{
+    width: 100%;
+}
+.empresas_de_coleta{
+    margin: 10px;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: 25px;
+    margin-top: 37px;
+}
+.NOME_EMPRESA{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.NOME_EMPRESA:hover{
+    color: rgb(169, 255, 94);
+}
+.logo_empresa{
+    width: 4%;
+    padding-left: 95%;
+}
+.corpo_informativos_DIREITA{
+    margin-right: 36%;
+    background-image: url(IMG/Lixo-Eletrônico-1.jpg);
+    background-size: 37%;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 600px;
+    max-width: 731px;
+    max-height: 157px;
+}
+.corpo_informativos_ESQUERDA{
+    margin-left: 41%;
+    background-image: url(IMG/Lixo-Eletrônico-1.jpg);
+    background-size: 37%;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 600px;
+    max-width: 731px;
+    max-height: 157px;
+    position: relative
+}
+.corpo_informativos_DIREITA p:hover{
+    background-color: #3f3d3dc9;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1.4s;
+    position: relative
+}
+.corpo_informativos_ESQUERDA p:hover{
+    background-color: #3f3d3dc9;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1.4s;
+}
+/*
+    formulario para novos pontos de coleta
+*/
+#formulario_texto{
+    text-transform: uppercase;
+    text-align: center;
+}
+.box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    background-color: #3f3d3dc9;
+    padding: 15px;
+    border-radius: 5px;
+}
+fieldset{
+    border: 3px solid white;
+}
+#legenda_formulario{
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.inputForm{
+    width: 60%;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+#botão{
+    width: 100%;
+}
+
+
+
