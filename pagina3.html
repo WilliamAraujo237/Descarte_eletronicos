@@ -23,12 +23,14 @@
         <h1>envie novos pontos de coleta</h1>
     </div>
     <div class="box">
-        <form action="">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="ea583643-73ba-41d4-8431-217b02b159d3">
+            <input type="hidden" name="redirectTo" value="https://www.amazon.com.br/">
             <fieldset>
                 <legend id="legenda_formulario">formulário</legend>
                 <br/>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputForm" required>
+                    <input type="text" name="name" id="nome" class="inputForm" required>
                     <label for="nome">Nome Completo</label>
                 </div>
                 <br/>
@@ -38,7 +40,7 @@
                 </div>
                 <br/>
                 <div class="texo_informado">
-                    <textarea name="texto" id="texto" cols="30" rows="10">Fale sobre o novo ponto de coleta e informações sobre o mesmo</textarea>
+                    <textarea name="message" id="texto" cols="30" rows="10">Fale sobre o novo ponto de coleta e informações sobre o mesmo</textarea>
                     <label for="texto">escreva aqui</label>
                 </div>
                 <br/>
