@@ -40,7 +40,7 @@ nav a {
 nav a:hover{
     border-radius: 5px;
     padding: 20px;
-    background-color: #3f3d3dc9;
+    background-color: #979393c9;
     transition: 1000ms
     
 }
@@ -56,6 +56,9 @@ nav a:hover{
     border-radius: 18px;
     max-width: 606px;
     max-height: 336px;
+}
+.imagens_informações:hover{
+    border: 1.2px dashed red;
 }
 /*
     informativos das empresas de coleta
@@ -105,24 +108,27 @@ nav a:hover{
     position: relative
 }
 .corpo_informativos_DIREITA p:hover{
-    background-color: #3f3d3dc9;
-    text-align: center;
+    background-color: #cfbabac9;
     text-align: center;
     text-transform: uppercase;
     transition: 1.4s;
-    position: relative
+    position: relative;
+    font-size: 15px;
+    padding: 5px;
 }
 .corpo_informativos_ESQUERDA p:hover{
-    background-color: #3f3d3dc9;
-    text-align: center;
+    background-color: #cfbabac9;
     text-align: center;
     text-transform: uppercase;
     transition: 1.4s;
+    position: relative;
+    font-size: 15px;
+    padding: 5px;
 }
 /*
     formulario para novos pontos de coleta
 */
-#formulario_texto{
+.titulo{
     text-transform: uppercase;
     text-align: center;
 }
@@ -154,4 +160,7 @@ textarea{
 }
 #botão{
     width: 100%;
+}
+#informação_texto_formulário{
+    padding:37%;
 }

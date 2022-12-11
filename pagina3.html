@@ -19,7 +19,7 @@
                 </ul>
             <nav>          
     </header>
-    <div id="formulario_texto">
+    <div class="titulo">
         <h1>envie novos pontos de coleta</h1>
     </div>
     <div class="box">
@@ -30,7 +30,7 @@
                 <legend id="legenda_formulario">formulário</legend>
                 <br/>
                 <div class="inputBox">
-                    <input type="text" name="name" id="nome" class="inputForm" required>
+                    <input type="text" name="name" id="nome" class="inputForm" required minlength="3" maxlength="20">
                     <label for="nome">Nome Completo</label>
                 </div>
                 <br/>
@@ -41,12 +41,13 @@
                 <br/>
                 <div class="texo_informado">
                     <textarea name="message" id="texto" cols="30" rows="10">Fale sobre o novo ponto de coleta e informações sobre o mesmo</textarea>
-                    <label for="texto">escreva aqui</label>
+                    <label for="texto" id="informação_texto_formulário">escreva aqui</label>
                 </div>
                 <br/>
-                <input type="submit" nome="submit" id="botão">
+                <input type="submit" nome="submit" id="botão" onclick="clicar()">
             </fieldset>
         </form>
     </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
