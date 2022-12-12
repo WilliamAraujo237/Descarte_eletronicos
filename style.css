@@ -81,6 +81,9 @@ nav a:hover{
     font-size: large;
     color: #000000;
 }
+#div1:hover{
+    border: 1.3px dashed red;
+}
 /*
     informativos das empresas de coleta
 */
