@@ -47,18 +47,39 @@ nav a:hover{
 /*
     imagens informativas da pagina principal
 */
-.informaões{
- width: 80%;
+.informativo_index{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    padding: 7.2%;
 }
-.imagens_informações{
-    width: 48%;
-    padding: 10px;
-    border-radius: 18px;
-    max-width: 606px;
-    max-height: 336px;
+#div1 {
+    background-color: #a4a5a4;
+    border-radius: 10px;
+}  
+.imagens_index{
+    padding: 50%;
+    padding-bottom: 0px;
+    position: relative;
+    top: -72px;
+    left: -80px;
+    width: 158px;
 }
-.imagens_informações:hover{
-    border: 1.2px dashed red;
+.tratamento_imagem{
+    position: relative;
+    width: 164%;
+    top: -65px;
+    left: -50px;
+    height: 143px;
+}
+.imagens_index p{
+    width: 257px;
+    position: relative;
+    top: -68px;
+    left: -32%;
+    font-size: large;
+    color: #000000;
 }
 /*
     informativos das empresas de coleta
